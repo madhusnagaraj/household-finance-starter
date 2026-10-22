@@ -1,0 +1,121 @@
+{
+  "_about": "Per-account setup for scripts/ingest.py. One source per account: no account comes in from two places. To add a bank, add an account and a source here; no code change needed.",
+  "transfer_window_days": 7,
+  "duplicate_window_days": 3,
+  "statements_dir": "statements",
+  "accounts": {
+    "otterbrook": {
+      "label": "Otterbrook joint checking",
+      "owner": "joint",
+      "liability": false,
+      "control": "running_balance",
+      "statement_kind": "otterbrook"
+    },
+    "fernleaf": {
+      "label": "Fernleaf rewards card",
+      "owner": "Sam (Jordan is an authorized user)",
+      "liability": true,
+      "control": "statement_card",
+      "statement_kind": "fernleaf"
+    },
+    "tidewell": {
+      "label": "Tidewell joint brokerage",
+      "owner": "joint",
+      "liability": false,
+      "control": "statement_brokerage",
+      "statement_kind": "tidewell"
+    }
+  },
+  "sources": [
+    {
+      "name": "otterbrook_csv",
+      "account": "otterbrook",
+      "glob": "otterbrook_checking_export_*.csv",
+      "header_starts_with": "Date,",
+      "delimiter": ",",
+      "decimal": ".",
+      "thousands": ",",
+      "date_format": "%m/%d/%Y",
+      "order": "newest_first",
+      "spending_is": "negative",
+      "posted_status": "Posted",
+      "columns": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount",
+        "balance": "Balance",
+        "status": "Status"
+      }
+    },
+    {
+      "name": "fernleaf_csv",
+      "account": "fernleaf",
+      "glob": "fernleaf_activity_*.csv",
+      "header_starts_with": "Transaction Date,",
+      "delimiter": ",",
+      "decimal": ".",
+      "thousands": ",",
+      "date_format": "%Y-%m-%d",
+      "order": "oldest_first",
+      "trailer_first_column": "Total",
+      "period_line_regex": "period (\\d\\d/\\d\\d/\\d{4}) - (\\d\\d/\\d\\d/\\d{4})",
+      "period_date_format": "%m/%d/%Y",
+      "columns": {
+        "date": "Post Date",
+        "txn_date": "Transaction Date",
+        "description": "Description",
+        "bank_category": "Category",
+        "debit": "Debit",
+        "credit": "Credit"
+      }
+    },
+    {
+      "name": "tidewell_csv",
+      "account": "tidewell",
+      "glob": "tidewell_activity_*.csv",
+      "header_starts_with": "Trade Date,",
+      "delimiter": ",",
+      "decimal": ".",
+      "thousands": ",",
+      "date_format": "%m/%d/%Y",
+      "order": "oldest_first",
+      "spending_is": "negative",
+      "id_extra": [
+        "action",
+        "symbol",
+        "quantity",
+        "price"
+      ],
+      "columns": {
+        "date": "Trade Date",
+        "description": "Description",
+        "action": "Action",
+        "symbol": "Symbol",
+        "quantity": "Quantity",
+        "price": "Price",
+        "amount": "Amount"
+      }
+    }
+  ],
+  "one_off_categories": [
+    "Home: kitchen remodel"
+  ],
+  "essential_lines_proposed": [
+    "Mortgage",
+    "Childcare: aftercare and camp",
+    "Electric",
+    "Water",
+    "Internet",
+    "Phone",
+    "Car insurance",
+    "Groceries",
+    "Gas"
+  ],
+  "mortgage": {
+    "lender": "Hollowmere Mortgage",
+    "original_amount": "340000.00",
+    "rate_pct": "6.125",
+    "term_months": 360,
+    "source": "Sam, from memory; no mortgage statement yet (README open question)"
+  }
+}

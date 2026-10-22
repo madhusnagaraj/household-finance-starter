@@ -1,0 +1,23 @@
+as_of,account,amount,source,confidence
+2026-03-23,fernleaf,-1406.08,statements/FernleafCard_Statement_2026-03-23.pdf,exact
+2026-03-31,otterbrook,12160.91,statements/Otterbrook_eStatement_2026-03-31.pdf,exact
+2026-03-31,tidewell,143152.67,statements/Tidewell_Monthly_Statement_202603.pdf,exact
+2026-04-23,fernleaf,-1441.38,statements/FernleafCard_Statement_2026-04-23.pdf,exact
+2026-04-30,otterbrook,15868.52,statements/Otterbrook_eStatement_2026-04-30.pdf,exact
+2026-04-30,tidewell,145143.76,statements/Tidewell_Monthly_Statement_202604.pdf,exact
+2026-05-23,fernleaf,-1499.61,statements/FernleafCard_Statement_2026-05-23.pdf,exact
+2026-05-29,tidewell,106406.34,statements/Tidewell_Monthly_Statement_202605.pdf,exact
+2026-05-31,otterbrook,35366.21,statements/Otterbrook_eStatement_2026-05-31.pdf,exact
+2026-06-23,fernleaf,-1896.47,statements/FernleafCard_Statement_2026-06-23.pdf,exact
+2026-06-30,otterbrook,26592.88,statements/Otterbrook_eStatement_2026-06-30.pdf,exact
+2026-06-30,tidewell,105346.61,statements/Tidewell_Monthly_Statement_202606.pdf,exact
+2026-07-23,fernleaf,-1437.49,statements/FernleafCard_Statement_2026-07-23.pdf,exact
+2026-07-31,otterbrook,29524.78,statements/Otterbrook_eStatement_2026-07-31.pdf,exact
+2026-07-31,tidewell,107032.46,statements/Tidewell_Monthly_Statement_202607.pdf,exact
+2026-08-23,fernleaf,-1439.39,statements/FernleafCard_Statement_2026-08-23.pdf,exact
+2026-08-31,otterbrook,32885.70,statements/Otterbrook_eStatement_2026-08-31.pdf,exact
+2026-08-31,tidewell,106707.79,statements/Tidewell_Monthly_Statement_202608.pdf,exact
+2026-10-22,401k_sam,96000.00,"Sam, from memory in chat 2026-10-22; no statement",estimate
+2026-10-22,403b_jordan,41000.00,"Sam relaying Jordan, from memory 2026-10-22; no statement",estimate
+2026-10-22,home,450000.00,"Sam's guess of market value, not a valuation, 2026-10-22",estimate
+2026-10-22,mortgage_hollowmere,-326000.00,"Sam's guess, not checked, 2026-10-22; no statement",estimate

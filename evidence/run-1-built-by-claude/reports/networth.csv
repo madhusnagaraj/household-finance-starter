@@ -1,0 +1,9 @@
+account,amount,as_of,confidence,source
+home,450000.00,2026-10-22,estimate,"Sam's guess of market value, not a valuation, 2026-10-22"
+tidewell,106707.79,2026-08-31,exact,statements/Tidewell_Monthly_Statement_202608.pdf
+401k_sam,96000.00,2026-10-22,estimate,"Sam, from memory in chat 2026-10-22; no statement"
+403b_jordan,41000.00,2026-10-22,estimate,"Sam relaying Jordan, from memory 2026-10-22; no statement"
+otterbrook,32885.70,2026-08-31,exact,statements/Otterbrook_eStatement_2026-08-31.pdf
+fernleaf,-1439.39,2026-08-23,exact,statements/FernleafCard_Statement_2026-08-23.pdf
+mortgage_hollowmere,-326000.00,2026-10-22,estimate,"Sam's guess, not checked, 2026-10-22; no statement"
+TOTAL,399154.10,,,sum of the rows above

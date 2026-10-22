@@ -1,0 +1,4 @@
+account,covered_from,covered_to,basis
+otterbrook,2026-03-01,2026-08-31,statement periods whose opening and closing balances match the download
+fernleaf,2026-02-24,2026-08-23,the downloads' own statement periods
+tidewell,2026-03-01,2026-08-31,the monthly statements that were checked

@@ -1,0 +1,24 @@
+YEAR BRIDGE (investment accounts)
+
+Money in and out = only money crossing the account's edge. Dividends, buys, sells and reinvestments are market change.
+
+tidewell 2026  (partial year: statements cover 2026-03-01 to 2026-08-31)
+  start value           140185.60  (2026-03-01)
+  money in                3000.00
+  money out             -35000.00  went to: otterbrook: 35000.00
+  market change          -1477.81  (price change plus dividends)
+  end value             106707.79  (2026-08-31)
+  bridge check               0.00  (end minus the four lines above; must be 0.00)
+  statements chain: yes, each month opens where the last closed
+  against the fund's own price change over 5 months (estimates): account -3.97%, fund -4.08%, gap 0.11 points -> ok
+
+Month ending          Start        In         Out  Market chg          End  Acct %  Fund %  Gap pp  Flag
+--------------------------------------------------------------------------------------------------------
+2026-03-31        140185.60    500.00        0.00     2467.07    143152.67    1.44       -       -  
+2026-04-30        143152.67    500.00        0.00     1491.09    145143.76    1.04    1.04    0.00  
+2026-05-29        145143.76    500.00   -35000.00    -4237.42    106406.34   -3.57   -3.67    0.10  
+2026-06-30        106406.34    500.00        0.00    -1559.73    105346.61   -1.79   -1.80    0.01  
+2026-07-31        105346.61    500.00        0.00     1185.85    107032.46    1.12    1.13    0.01  
+2026-08-31        107032.46    500.00        0.00     -824.67    106707.79   -0.77   -0.78    0.01  
+
+Flag thresholds (set before looking): month 0.50 points, year 1.00 point.

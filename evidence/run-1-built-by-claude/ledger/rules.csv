@@ -1,0 +1,33 @@
+rule_id,account,field,pattern,category,kind,pair_with,added_by,added_on,note
+R001,otterbrook,description,^HOLLOWMERE MORTGAGE,Mortgage,loan,,Sam (Phase 1 interview),2026-10-22,Hollowmere mortgage payment from checking
+R002,otterbrook,description,^QUILLFEATHER LABS PAYROLL,Pay: Sam,income,,Sam (Phase 1 interview),2026-10-22,Sam's employer
+R003,otterbrook,description,^LITTLE ACORNS,Kids: aftercare,spend,,Sam (Phase 1 interview),2026-10-22,Mira's aftercare
+R004,otterbrook,description,^CAMP WILLOWBEND,Kids: day camp,spend,,Sam (Phase 1 interview),2026-10-22,Mira's July and August day camp
+R005,otterbrook,description,^PEBBLENET,Utilities: internet,spend,,Sam (Phase 1 interview),2026-10-22,
+R006,otterbrook,description,^MAPLEFORD ELECTRIC,Utilities: electric,spend,,Sam (Phase 1 interview),2026-10-22,
+R007,otterbrook,description,^MAPLEFORD WATER,Utilities: water,spend,,Sam (Phase 1 interview),2026-10-22,
+R008,otterbrook,description,^STEADYHAND,Auto: insurance,spend,,Sam (Phase 1 interview),2026-10-22,
+R009,otterbrook,description,^TIDEWELL BROKERAGE XFER TO,Savings: brokerage,transfer,tidewell,Sam (Phase 1 interview),2026-10-22,Money sent from checking to the brokerage; other side is in Tidewell
+R010,otterbrook,description,^P2P PAYMENT TO R OKONKWO,Kids: babysitter,spend,,Sam (Phase 1 interview),2026-10-22,A payment to a person (Rhea Okonkwo); not a move between our accounts
+R011,otterbrook,description,^ATM WITHDRAWAL,Cash,spend,,Sam (Phase 1 interview),2026-10-22,Counted when withdrawn
+R012,otterbrook,description,^FERNLEAF CARD AUTOPAY,Card payment,transfer,fernleaf,Sam (Phase 1 interview),2026-10-22,Paying the card is a transfer; the card purchases are the spending
+R013,otterbrook,description,^HALVERSON RENOVATION,Home: kitchen remodel,spend,,Sam (Phase 1 interview),2026-10-22,Remodel contractor; one-off
+R014,otterbrook,description,^CHECK 1042$,Home: kitchen remodel,spend,,Sam (Phase 1 interview),2026-10-22,Per Sam: check 1042 was the $22000 deposit to Halverson Renovation
+R015,fernleaf,description,^AUTOPAY PAYMENT,Card payment,transfer,otterbrook,Assistant (structural),2026-10-22,Card autopay credit; other side is in Otterbrook
+R016,fernleaf,description,ORBITMART ONLINE RETURN,Shopping,spend,,Assistant (structural),2026-10-22,A refund is negative spending; never income
+R017,fernleaf,description,ORBITMART ONLINE,Shopping,spend,,Sam (Phase 1 interview),2026-10-22,
+R018,fernleaf,description,HEARTHSTONE MARKET|GREENBASKET,Groceries,spend,,Sam (Phase 1 interview),2026-10-22,
+R019,fernleaf,description,^QUIKFILL,Auto: gas,spend,,Sam (Phase 1 interview),2026-10-22,
+R020,fernleaf,description,BEAN & BARLEY,Dining: coffee,spend,,Sam (Phase 1 interview),2026-10-22,
+R021,fernleaf,description,^CLEARCALL,Utilities: phone,spend,,Sam (Phase 1 interview),2026-10-22,
+R022,fernleaf,description,^STREAMBOX|^TUNEWAVE,Subscriptions,spend,,Sam (Phase 1 interview),2026-10-22,
+R023,tidewell,action,^(CONTRIBUTION|WITHDRAWAL)$,Brokerage transfer,transfer,otterbrook,Assistant (structural),2026-10-22,Money crossing the brokerage's edge; other side is in Otterbrook
+R024,tidewell,action,^(BUY|SELL|DIVIDEND|REINVEST)$,Investing activity,invest,,Assistant (structural),2026-10-22,Inside the brokerage: market change, not household income or spending
+R025,otterbrook,description,^SALTMARSH USD PAYROLL,Pay: Jordan,income,,Sam,2026-10-22,Jordan's school district pay
+R026,fernleaf,description,^RIVERSIDE SWIM CLUB,Kids: swim,spend,,Sam,2026-10-22,Mira's swim lessons
+R027,*,description,LUCIA'S TRATTORIA|PHO LANTERN|TACO ORBIT|THE COPPER SPOON,Dining,spend,,Sam,2026-10-22,Eating out (the Copper Spoon is dinner out; also appears as a debit-card charge)
+R028,fernleaf,description,^WELLSPRING PHARMACY,Health,spend,,Sam,2026-10-22,Pharmacy; Sam accepted the suggestion
+R029,fernleaf,description,^NORDLYS DESIGN,Gifts,spend,,Sam,2026-10-22,"Birthday present bought from a shop abroad; gifts, not shopping"
+R030,fernleaf,description,^FOREIGN TRANSACTION FEE,Fees & interest,spend,,Sam,2026-10-22,What the card charges for buying from abroad
+R031,fernleaf,description,^INTEREST CHARGE,Fees & interest,spend,,Sam,2026-10-22,Interest from paying only part of the card balance in June
+R032,otterbrook,description,^TIDEWELL BROKERAGE XFER FROM,From brokerage,transfer,tidewell,Assistant (structural),2026-10-22,Money that came back from the brokerage (the $35000 for the remodel); other side is in Tidewell

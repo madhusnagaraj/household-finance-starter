@@ -1,0 +1,2 @@
+account,year,from,to,start_value,money_in,money_out,money_out_to,market_change,end_value,bridge_check,statements_chain,months_compared,acct_price_return_pct,fund_price_return_pct,cumulative_gap_pp,flag,note
+tidewell,2026,2026-03-01,2026-08-31,140185.60,3000.00,-35000.00,otterbrook: 35000.00,-1477.81,106707.79,0.00,yes,5,-3.97,-4.08,0.11,ok,partial year: statements cover 2026-03-01 to 2026-08-31

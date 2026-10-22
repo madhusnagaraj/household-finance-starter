@@ -1,0 +1,25 @@
+TIDEWELL: 2026-03-01 to 2026-08-31  (statements cover only this period)
+
+Saved versus growth
+  value at the start                     140185.60
+  saved (money you put in)                 3000.00
+  growth (price change + dividends)       -1477.81
+  moved out                              -35000.00
+  value at the end                       106707.79
+  Growth is what the market did to your money. Saved is what you added. Moved out is not a loss.
+
+Where money went when it left
+  2026-05-08      35000.00 left tidewell and arrived in otterbrook
+      2026-05-11  CHECK 1042                      22000.00  (Home: kitchen remodel)
+      2026-06-18  HALVERSON RENOVATION ACH        12850.00  (Home: kitchen remodel)
+      one-off spending that followed: 34850.00; left over from that transfer: 150.00
+      Money is fungible: this follows the one-off cost Sam said the money was for, using the ledger's own rows.
+
+What the account earned (ESTIMATES from monthly statements; this period only, not annualized)
+  time-weighted return      -1.97%   how the investments did, ignoring when money moved
+  money-weighted return     -1.24%   what you actually earned, given when money moved
+  The two differ because of the money you moved out in May.
+
+Benchmark: not compared. I need benchmark values from you or a source you name; I do not use numbers from memory.
+This is information, not investment advice, and I am not a licensed financial advisor.
+

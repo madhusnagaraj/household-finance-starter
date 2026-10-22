@@ -1,0 +1,58 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content='width=device-width,initial-scale=1'>
+<title>Household budget</title><style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--mute:#6b6a64;--line:#e4e1d8;--card:#fff;--ok:#1f6b45;--watch:#8a5a00;--over:#a32a2a;--np:#5a5a55}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#151512;--fg:#ecebe5;--mute:#a3a29a;--line:#2e2d28;--card:#1d1d19;--ok:#6fcf9a;--watch:#e8b04a;--over:#ff8f8f;--np:#b5b4ab}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 -apple-system,system-ui,"Segoe UI",sans-serif}
+main{max-width:640px;margin:0 auto;padding:20px 16px 40px}h1{font-size:22px;margin:0 0 4px}h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:26px 0 8px}
+.sub{color:var(--mute);margin:0 0 16px}.stale{background:var(--card);border:1px solid var(--over);border-radius:10px;padding:10px 12px;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.tile b{display:block;font-size:20px;font-variant-numeric:tabular-nums}.tile span{color:var(--mute);font-size:13px}
+.row{display:grid;grid-template-columns:1fr auto;gap:2px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px}
+.row .n{font-weight:600}.row .st{justify-self:end;font-size:13px;font-weight:600}.row .m{color:var(--mute);font-size:14px;font-variant-numeric:tabular-nums}
+.ok{color:var(--ok)}.watch{color:var(--watch)}.over{color:var(--over)}.np{color:var(--np)}
+footer{color:var(--mute);font-size:13px;margin-top:28px}
+</style></head><body><main>
+<h1>Budget 2026-08</h1>
+<p class=sub>Month to date through 2026-08-23 (day 23 of 31)</p>
+<p class=stale>Out of date: the ledger is only checked through 2026-08-23. Add fresh downloads and run ingest.py.</p>
+<div class=grid>
+<div class=tile><b>1,925.67</b><span>Flex pool (plan)</span></div>
+<div class=tile><b>1,925.67</b><span>Flex left</span></div>
+<div class=tile><b>2,362.61</b><span>Cushion on current pace</span></div>
+<div class=tile><b>0.00</b><span>Flex spent so far</span></div>
+<div class=tile><b>912.55</b><span>On the card (next month&#x27;s cash)</span></div>
+<div class=tile><b>3,370.50</b><span>Straight from the bank</span></div>
+</div>
+<h2>Income</h2>
+<div class=row><span class=n>Pay: Sam</span><span class='st ok'>ok</span><span class=m>plan 5,520.36 &middot; so far 5,520.36</span></div>
+<div class=row><span class=n>Pay: Jordan</span><span class='st np'>not posted</span><span class=m>plan 3,248.55 &middot; so far 0.00</span></div>
+<h2>Committed lines</h2>
+<div class=row><span class=n>Mortgage</span><span class='st ok'>ok</span><span class=m>plan 2,140.00 &middot; so far 2,140.00</span></div>
+<div class=row><span class=n>Groceries</span><span class='st ok'>ok</span><span class=m>plan 900.00 &middot; so far 437.24 &middot; pace 667.74</span></div>
+<div class=row><span class=n>Dining out and coffee</span><span class='st ok'>ok</span><span class=m>plan 250.00 &middot; so far 183.01 &middot; pace 185.48</span></div>
+<div class=row><span class=n>Gas</span><span class='st ok'>ok</span><span class=m>plan 150.00 &middot; so far 41.56 &middot; pace 111.29</span></div>
+<div class=row><span class=n>Childcare: aftercare and camp</span><span class='st over'>over</span><span class=m>plan 458.33 &middot; so far 650.00</span></div>
+<div class=row><span class=n>Swim lessons</span><span class='st ok'>ok</span><span class=m>plan 65.00 &middot; so far 65.00</span></div>
+<div class=row><span class=n>Babysitter</span><span class='st over'>over</span><span class=m>plan 102.67 &middot; so far 120.00 &middot; pace 76.17</span></div>
+<div class=row><span class=n>Electric</span><span class='st over'>over</span><span class=m>plan 141.11 &middot; so far 176.05</span></div>
+<div class=row><span class=n>Water</span><span class='st over'>over</span><span class=m>plan 66.74 &middot; so far 72.15</span></div>
+<div class=row><span class=n>Internet</span><span class='st ok'>ok</span><span class=m>plan 70.00 &middot; so far 70.00</span></div>
+<div class=row><span class=n>Phone</span><span class='st np'>not posted</span><span class=m>plan 95.00 &middot; so far 0.00</span></div>
+<div class=row><span class=n>Subscriptions</span><span class='st ok'>ok</span><span class=m>plan 32.98 &middot; so far 32.98</span></div>
+<div class=row><span class=n>Car insurance</span><span class='st ok'>ok</span><span class=m>plan 142.30 &middot; so far 142.30</span></div>
+<div class=row><span class=n>Cash</span><span class='st np'>not posted</span><span class=m>plan 86.67 &middot; so far 0.00 &middot; pace 64.30</span></div>
+<div class=row><span class=n>Shopping</span><span class='st watch'>watch</span><span class=m>plan 170.21 &middot; so far 134.36 &middot; pace 126.28</span></div>
+<div class=row><span class=n>Gifts</span><span class='st np'>not posted</span><span class=m>plan 10.19 &middot; so far 0.00 &middot; pace 7.56</span></div>
+<div class=row><span class=n>Fees and interest &amp; misc</span><span class='st np'>not posted</span><span class=m>plan 2.04 &middot; so far 0.00 &middot; pace 1.51</span></div>
+<h2>Expected lumpy costs</h2>
+<div class=row><span class=n>Home repairs</span><span class='st np'>not posted</span><span class=m>plan 150.00 &middot; so far 0.00</span></div>
+<div class=row><span class=n>Doctors and health</span><span class='st ok'>ok</span><span class=m>plan 100.00 &middot; so far 18.40</span></div>
+<div class=row><span class=n>Annual fees</span><span class='st np'>not posted</span><span class=m>plan 10.00 &middot; so far 0.00</span></div>
+<h2>Savings</h2>
+<div class=row><span class=n>Brokerage</span><span class='st ok'>ok</span><span class=m>plan 500.00 &middot; so far 500.00</span></div>
+<div class=row><span class=n>Emergency fund</span><span class='st np'>not posted</span><span class=m>plan 1,000.00 &middot; so far 0.00</span></div>
+<div class=row><span class=n>College fund (Mira)</span><span class='st np'>not posted</span><span class=m>plan 200.00 &middot; so far 0.00</span></div>
+<footer>This page is a render of the budget script's output. Nothing on it can be edited; change the plan in plan.csv and rebuild. It is private household data.
+<br>plan line &#x27;Home repairs&#x27; has no ledger category mapped to it, so no spending will ever show against it<br>plan line &#x27;Annual fees&#x27; has no ledger category mapped to it, so no spending will ever show against it
+</footer></main></body></html>

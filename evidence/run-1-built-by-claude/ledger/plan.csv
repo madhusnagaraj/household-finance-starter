@@ -1,0 +1,26 @@
+block,line,amount,fixed,note,paid_by
+income,Pay: Sam,5520.36,1,"Plain month: two paychecks. The third paycheck in a month (this October, next April) is extra and goes to the emergency fund (Sam, 2026-10-22)",bank
+income,Pay: Jordan,3248.55,1,"What actually lands each month (Sam, 2026-10-22). A summer gap is not known; the bank shows pay June to August",bank
+committed,Mortgage,-2140.00,1,Total payment on the 1st. The split with escrow is not confirmed yet,bank
+committed,Groceries,-900.00,0,"Sam, 2026-10-22",card
+committed,Dining out and coffee,-250.00,0,"Sam, 2026-10-22. Restaurants and the coffee place together",card
+committed,Gas,-150.00,0,"Sam, 2026-10-22",card
+committed,Childcare: aftercare and camp,-458.33,1,"A twelfth of the year: 10 school months of aftercare plus July and August of day camp (Sam). Camp months run over this line, school months run under",bank
+committed,Swim lessons,-65.00,1,"What is paid now (Sam, 2026-10-22)",card
+committed,Babysitter,-102.67,0,Six-month average; Sam to adjust,bank
+committed,Electric,-141.11,1,Six-month average; higher in summer. Treated as a bill because it posts once a month,bank
+committed,Water,-66.74,1,Six-month average. Treated as a bill because it posts once a month,bank
+committed,Internet,-70.00,1,Six-month average,bank
+committed,Phone,-95.00,1,Six-month average. On the card,card
+committed,Subscriptions,-32.98,1,"What is paid now (Sam, 2026-10-22)",card
+committed,Car insurance,-142.30,1,Six-month average,bank
+committed,Cash,-86.67,0,Six-month average; Sam to adjust,bank
+committed,Shopping,-170.21,0,Six-month average; Sam to adjust,card
+committed,Gifts,-10.19,0,Six-month average; Sam to adjust,card
+committed,Fees and interest & misc,-2.04,0,Six-month average. Should be near zero when the card is paid in full,card
+lumpy,Home repairs,-150.00,0,"Sam, 2026-10-22. Set aside each month for when something breaks",card
+lumpy,Doctors and health,-100.00,0,"Sam, 2026-10-22. Pharmacy purchases count against it",card
+lumpy,Annual fees,-10.00,0,"Sam, 2026-10-22",card
+savings,Brokerage,-500.00,1,"Sam, 2026-10-22. Already automatic, around the 15th",bank
+savings,Emergency fund,-1000.00,1,"Sam, 2026-10-22. No separate account exists yet; until one is opened this stays in checking",bank
+savings,College fund (Mira),-200.00,1,"Sam, 2026-10-22. Starts once the account is opened; not opened yet",bank

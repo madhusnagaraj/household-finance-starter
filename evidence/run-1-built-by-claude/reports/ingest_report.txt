@@ -1,0 +1,31 @@
+HOUSEHOLD LEDGER - INGEST REPORT
+
+Files read
+  exports/2026-10-22/fernleaf_activity_2026-03-23.csv: 21 posted rows, 0 pending skipped
+  exports/2026-10-22/fernleaf_activity_2026-04-23.csv: 25 posted rows, 0 pending skipped
+  exports/2026-10-22/fernleaf_activity_2026-05-23.csv: 26 posted rows, 0 pending skipped
+  exports/2026-10-22/fernleaf_activity_2026-06-23.csv: 25 posted rows, 0 pending skipped
+  exports/2026-10-22/fernleaf_activity_2026-07-23.csv: 21 posted rows, 0 pending skipped
+  exports/2026-10-22/fernleaf_activity_2026-08-23.csv: 24 posted rows, 0 pending skipped
+  exports/2026-10-22/otterbrook_checking_export_20260615.csv: 49 posted rows, 1 pending skipped
+  exports/2026-10-22/otterbrook_checking_export_20260831.csv: 41 posted rows, 0 pending skipped
+  exports/2026-10-22/tidewell_activity_2026-03_to_2026-08.csv: 18 posted rows, 0 pending skipped
+
+Accounts
+  otterbrook: OK
+     rows read 90, new 0, already in ledger 90, pending skipped 1, held for you 0
+     total comes from: bank's running balance column
+  fernleaf: OK
+     rows read 143, new 0, already in ledger 143, pending skipped 0, held for you 0
+     total comes from: each statement's previous and new balance
+  tidewell: OK
+     rows read 18, new 0, already in ledger 18, pending skipped 0, held for you 0
+     total comes from: each monthly statement (flows, cash sweep, share count)
+     note: statement 2026-03-01 to 2026-03-31: opening cash is not on the statement, so it was worked out from the closing cash (0.00); this period's cash is not independently checked
+     note: statement 2026-03-01 to 2026-03-31: opening TWTMX shares worked out from the closing count (1184.000); not independently checked
+
+Rows added from a statement with approval (ledger/corrections.csv):
+  fernleaf 2026-07-20 HEARTHSTONE MARKET -87.43 from statements/FernleafCard_Statement_2026-07-23.pdf, approved by Sam on 2026-10-22
+
+Ledger rows: 244
+Rows with no rule yet: 0
